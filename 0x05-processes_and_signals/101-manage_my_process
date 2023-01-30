@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#include<stdio.h>
+
+int main(int argc, char *argv[])
+{
+	int count = argc;
+
+	int c = 0;
+	while (argv[c] == "start")
+	{
+		/etc/init.d/manage_my_process start;
+		printf("manage_my_process started");
+		c++;
+
+	return 0;
+}
