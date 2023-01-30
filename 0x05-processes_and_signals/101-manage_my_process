@@ -11,6 +11,13 @@ int main(int argc, char *argv[])
 		/etc/init.d/manage_my_process start;
 		printf("manage_my_process started");
 		c++;
+	}
 
+	while (argv[c] == "stop")
+	{
+		/etc/init.d/manage_my_process sto;
+		printf("manage_my_process stopped");
+		c++;
+	}
 	return 0;
 }
