@@ -2,9 +2,10 @@
 # Displays "To infinity and beyond" indefinitely with
 #+ a sleep 2 in between each iteration.
 
+mkdir -p /var/run
+cd /var/run && echo $$ > myscript.pid
+
 while true
 do
 	echo "To infinity and beyond"
 done
-
-`
