@@ -6,6 +6,6 @@ mkdir /tmp
 cd /tmp && echo "
 while True
 do
-	echo 'I am alive!'
+	echo "I am alive!"
 	pause 2
 done " > my_process
