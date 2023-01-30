@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#createa file that indefinitely writes "i am alive!"
+#+to the file tm/my_files/my_process
+
+mkdir /tmp
+cd /tmp && echo "
+while True
+do
+	echo 'I am alive!'
+	pause 2
+done " > my_process
