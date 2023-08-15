@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/env bash
 # configures an Ubuntu machine with nginx
 FILE="/etc/nginx/sites-available/default"
 ERRORFILE="/usr/share/nginx/html/404error.html"
